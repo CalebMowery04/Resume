@@ -18,6 +18,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{lmodern}
 \input{glyphtounicode}
 
 
@@ -54,7 +55,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-6pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -71,8 +72,17 @@
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
+      \textbf{#1} & \textbf{#2} \\
       \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeBruhheading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{#2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6}
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -94,10 +104,12 @@
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeBruhHeadingListStart}{\begin{itemize}[leftmargin=0.00in, label={}]}
+\newcommand{\resumeBruhHeadingListEnd}{\end{itemize}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -112,7 +124,7 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Caleb Mowery} \\ \vspace{1pt}
+    {\fontsize{30}{34}\selectfont\textbf{\scshape Caleb Mowery}} \\ \vspace{9pt}
     \small 724-914-3420 $|$ \href{mailto:calebmowery7@gmail.com}{\underline{calebmowery7@gmail.com}} $|$ 
     \href{https://www.linkedin.com/in/caleb-mowery-0baa4b290/}{\underline{linkedin.com/in/calebmowery}} $|$
     \href{https://github.com/CalebMowery04}{\underline{github.com/CalebMowery04}}
@@ -121,14 +133,12 @@
 
 %-----------EDUCATION-----------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Southwestern University}{Georgetown, TX}
-      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
-    \resumeSubheading
-      {Blinn College}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
-  \resumeSubHeadingListEnd
+  \resumeBruhHeadingListStart
+    \resumeBruhheading
+      {The Pennsylvania State University}{University Park, PA}
+      {College of Engineering \textbar B.S. in Computer Science}{Aug. 2023 -- May 2027}
+      {Minor in Entrepreneurship and Innovation}{GPA: 3.67/4.0}
+  \resumeBruhHeadingListEnd
 
 
 %-----------EXPERIENCE-----------
