@@ -55,8 +55,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-6pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -69,17 +69,21 @@
   }
 }
 
+\newcommand{\resumeSkillsItem}[1]{
+  \vspace{2pt}\resumeItem{#1}
+}
+
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & {#2} \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeBruhheading}[6]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & {#2} \\
       \textit{\small#3} & \textit{\small #4} \\
       \textit{\small#5} & \textit{\small #6}
@@ -97,7 +101,7 @@
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -106,8 +110,8 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=1pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
 \newcommand{\resumeBruhHeadingListStart}{\begin{itemize}[leftmargin=0.00in, label={}]}
 \newcommand{\resumeBruhHeadingListEnd}{\end{itemize}}
 
@@ -155,7 +159,7 @@
         a python script that integrates Maximo's REST API and SQL in order to archive older entries in these tables}
         \resumeItem{Deployed a \textit{Query Manager} tab within DLC's Maximo package, using SQL and Maximo's Application Manager to provide admin users with an interface for
         freeing database space by editing or eliminating outdated queries}
-        \resumeItem{\textbf{Skills:} Python, SQL (Oracle), LangChain, IBM Maximo, Azure, Agile}
+        \resumeSkillsItem{\textbf{Skills:} Python, SQL (Oracle), LangChain, IBM Maximo, Azure, Agile}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -171,54 +175,44 @@
       {Student Developer}{May 2025 -- Present}
       {Penn State THON\textsuperscript{TM}}{University Park, PA}
       \resumeItemListStart
-        \resumeItem{Optimized dance floor pass distribution algorithm, saving smaller organizations $\sim$200 hours combined of wait time by
+        \resumeItem{Optimized dance floor pass distribution algorithm, saving organizations from wait time in a digital line by
         calculating a "dancer need score" attribute in each visitor's Django model and sorting the queue by this score}
         \resumeItem{Enhanced the THON\textsuperscript{TM} dashboard software's radio headset checkout feature, eliminating restrictive
         bugs in Python logic and saving time spent dealing with edge cases when checking out headsets during the event}
         \resumeItem{Organized redirection layout in the front end of the THON\textsuperscript{TM} dashboard in order to reduce average clicks per action and
         eliminate dead-ends on pages, improving user experience, work flow, and efficiency}
-        \resumeItem{\textbf{Skills:} Django, Python, Docker, HTML/CSS, JavaScript}
+        \resumeSkillsItem{\textbf{Skills:} Django, Python, Docker, HTML/CSS, JavaScript}
       \resumeItemListEnd
 
 
     \resumeSubheading
-      {Research Assistant}{Aug 2024  -- Present}
+      {Vice President of Membership}{Jan 2026 -- Present}
+      {Alpha Kappa Psi Professional Business Fraternity}{University Park, PA}
+      \resumeItemListStart
+        \resumeItem{Implemented a scoring algorithm for the fraternity's annual membership recruitment process, improving the efficiency of 
+        sorting and evaluating over 200 applications by implementing a weighted scoring system in Python}
+        \resumeItem{Lead a brotherhood of 151 members and 30 potential new members in professional development and career exploration through weekly events such as
+        professionalism workshops, resume review sessions, and mock interviews}
+        \resumeItem{Fostered a philanthropic culture within the fraternity by incentivizing fundraising and volunteering for State College
+         organizations such as NeilStrong, Strawberry Fields, and THON\textsuperscript{TM}, raising over \$240,000 across these efforts}
+        \resumeSkillsItem{\textbf{Skills:} Python, Google Apps Script, Google Sheets, Microsoft Excel}
+      \resumeItemListEnd
+
+
+    \resumeSubheading
+      {Research Assistant}{Aug 2024  -- Dec 2025}
       {Pennsylvania State University}{University Park, PA and Kisumu, Kenya}
       \resumeItemListStart
-        \resumeItem{Designed \textit{Walimu Kwanza}, a web app with over 200 users,
+        \resumeItem{Designed \textit{Walimu Kwanza}, a web app with over 100 users,
          on which Kenyan teachers can share lesson plans and classroom resources, as well as upload and answer questions to community forums, built using Adalo}
         \resumeItem{Researched teacher struggles in Kisumu, holding 2-4 stakeholder meetings a week focused on
         co-designing a digital solution to address issues with understaffing, low government funding, and a recent curriculum change in Kenya}
         \resumeItem{Composed a research manuscript on these conversations alongside \textit{Walimu Kwanza} usage data to
         argue that educational technology can be an effective tool in addressing teacher difficulties in low-resource settings}
-        \resumeItem{\textbf{Skills:} User Research, UI/UX Design, Adalo, Figma, Academic Writing}
+        \resumeSkillsItem{\textbf{Skills:} User Research, UI/UX Design, Adalo, Figma, Academic Writing}
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
-
-
-%-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Walimu Kwanza} $|$ \emph{SwiftUI, Firebase, Google Cloud}}{May 2025 -- Present}
-          \resumeItemListStart
-            \resumeItem{Developed an iOS app enabling teachers across Kenya to upload and share classroom resources in real time}
-            \resumeItem{Built a scalable backend using Firebase Auth, Firestore, and Cloud Storage to manage user data and file uploads}
-            \resumeItem{Deployed Cloud Functions and Security Rules to handle role-based access, moderation, and event-driven updates}
-            \resumeItem{Designed an upload pipeline storing over 300 resources and reducing material-sharing time from days to minutes}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Recruitment Database} $|$ \emph{Python, Google Apps Script}}{Aug 2024 -- Present}
-          \resumeItemListStart
-            \resumeItem{Developed a scoring algorithm to evaluate student applicants to Alpha Kappa Psi, a business fraternity on campus}
-            \resumeItem{Utilized Google Apps Script to generate scoring forms that show current members each applicant's photo and resume}
-            \resumeItem{Form responses alongside interview scores are then ingested into a Python script that ranks applicants}
-            \resumeItem{Slides of applicants are generated with GAS to show applicant rankings and resume highlights for deliberation}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
-
 
 %
 %-----------PROGRAMMING SKILLS-----------

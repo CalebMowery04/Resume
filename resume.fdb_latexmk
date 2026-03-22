@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1774203699.21208 "/Users/calebmowery/Resume/resume.tex" "resume.pdf" "resume" 1774203699.70969 0
-  "/Users/calebmowery/Resume/resume.tex" 1774203699.03878 9772 75a58d677f3902d8cdf9c1dff16a475e ""
+["pdflatex"] 1774206614.32858 "/Users/calebmowery/Resume/resume.tex" "resume.pdf" "resume" 1774206614.8722 0
+  "/Users/calebmowery/Resume/resume.tex" 1774206614.11545 9370 f415c6bf02217c6d0d2911e57b895edc ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -8,6 +8,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm" 1136768653 5184 4fd08a9613e75c1da82714d79cf8b4f1 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchbc7t.tfm" 1136768653 3592 4e65f7bb72a80801d3c0a29985f2b24d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr7t.tfm" 1136768653 2472 ab22c035363bbb0eb24fc2ce6fa2d921 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8c.tfm" 1136768653 1364 eddb79584f8d4279685d2abc2a2162ee ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm" 1136768653 4644 551129616ea4f62d8f0094a3db9a3f9d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchrc7t.tfm" 1136768653 3476 7425233da115a839f6749985251180bd ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchri7t.tfm" 1136768653 2568 58165f44b773491d02ba0f602dd480cb ""
@@ -43,6 +44,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchb7t.vf" 1136768653 1372 e6cfde23c168b1d1864ce6aa6dffa18b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchbc7t.vf" 1136768653 1948 8756c185d16c133ab8b62dca88f95869 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchr7t.vf" 1136768653 1372 955cf021d0094e95829436b7bdab6458 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf" 1136768653 3492 1012f7b53b5692e6d6f11a0fab90a971 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchrc7t.vf" 1136768653 1948 35abb510befa010fcb6eda2b3e0faf72 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchri7t.vf" 1136768653 1376 a6caf4b9594dae1aa6039195e9d4e333 ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -96,6 +98,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/charter.sty" 1586716065 838 9832f7748dc52a9fad0fb6beea4da041 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsbch.fd" 1137110629 576 0b35c587a8acb08219087104826320aa ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1bch.fd" 1137110629 962 f834400c020280927efcb3c6f4fbdfbc ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1bch.fd" 1137110629 619 714c95de6bdfe7fd2ff11be7337fbafb ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1750533675 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty" 1736023606 48766 87a17a4ef312a39cd43896e34a679a56 ""
@@ -107,9 +110,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1759879996 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1759938205 3628862 f95d13c048c3c7fea9bbb98f9a21661c ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "resume.aux" 1774203699.67121 715 224bcdbf39c1b79f1af9c3697e06b23f "pdflatex"
-  "resume.out" 1774203699.67187 413 1fd2e65f18cfc555de1c1cd217b761bd "pdflatex"
-  "resume.tex" 1774203699.03878 9772 75a58d677f3902d8cdf9c1dff16a475e ""
+  "resume.aux" 1774206614.83101 610 e494845ffefec5bf776cc3516a307afb "pdflatex"
+  "resume.out" 1774206614.83151 330 aa970479f3397d71c1bec25f56226f4a "pdflatex"
+  "resume.tex" 1774206614.11545 9370 f415c6bf02217c6d0d2911e57b895edc ""
   (generated)
   "resume.aux"
   "resume.log"
